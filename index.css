@@ -1,0 +1,35 @@
+body{
+    width: 25%;
+    max-width: 250px;
+    margin: auto;
+    justify-content: center;
+}
+#jatekter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#jatekter div{
+    width: 50px;
+    height: 50px;
+}
+.gombok1{
+    border-radius: 50%;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}
+.gombok0{
+    border-radius: 50%;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+}
+.pontok{
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+.gomb{
+    padding-left: 90px;
+}
